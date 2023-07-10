@@ -64,7 +64,7 @@
 
 /* Row2 Start */
 #row2{
-    height: 350px;
+    height: 700px;
     width: 100%;
     background: #fff;
 }
@@ -110,3 +110,64 @@
 }
 
 /* Row2 End */
+
+/* Row3 Start */
+#row3{
+    height: 500px;
+    width: 100%;
+    background: #e1e1e1;
+
+}
+.service_section{}
+.service_top{
+    text-align: center;
+    padding: 50px 0px;
+}
+.service_top h2{
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+.service_top p{
+    width: 700px;
+    margin: 0 auto;
+}
+.service_bottom{}
+.service_item{
+    height: 220px;
+    width: 290px;
+    position: relative;
+    overflow: hidden;
+
+}
+.service_item img{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+.service_overlay{
+    height: 100%;
+    width: 100%;
+    background: rgba(0,0,0,.7);
+    position: absolute;
+    top: -100%;
+    transition: 2s;
+
+}
+.service_item:hover .service_overlay{
+    top: 0;
+}
+.service_item:hover .service_icon{
+    top: 100%;
+
+}
+.service_icon{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    bottom: -100%;
+    transition: 2s;
+
+}
+.service_icon i{}
+
+/* Row3 End */
