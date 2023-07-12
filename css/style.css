@@ -227,10 +227,6 @@ body {
   background-color: #87d37c;
 }
 
-
-
-
-
 /* ---- button-group ---- */
 
 .button-group {
@@ -239,11 +235,6 @@ body {
     margin-bottom: 21px;
 }
 
-.button-group:after {
-  content: '';
-  display: block;
-  clear: both;
-}
 
 .button-group .button {
     border-radius: 0;
@@ -310,11 +301,79 @@ body {
     top: 45%;
 }
 
-
-
-
-
-
-
 /* Row4 End */
+
+/* Row5 Start */
+#row5{
+    height: 500px;
+    width: 100%;
+    background-color: #fff;
+}
+.pricing_section{
+    padding: 50px 0px;
+}
+.pricing_top{
+    padding-bottom: 50px;
+    text-align: center;
+}
+.pricing_top h2{
+    text-transform: uppercase;
+}
+.pricing_top p{
+    width: 800px;
+    margin: 0 auto;
+}
+.pricing_bottom{}
+.pricing_item{
+    background: #39393a;
+    padding: 30px 0px;
+    border-radius: 7px;
+    transition: 1s;
+    width: 90%;
+}
+.pricing_item:hover{
+    background: #87d37c;
+}
+.pricing_item:hover p{
+    background: #fff;
+    color: #87d37c;
+}
+.pricing_item p {
+    color: #fff;
+    height: 120px;
+    width: 120px;
+    border: 5px solid #fff;
+    border-radius: 100%;
+    text-align: center;
+    padding-top: 19px;
+    font-size: 22px;
+    margin: 0px auto;
+    margin-bottom: 15px;
+    transition: 1s;
+}
+.pricing_item p span{}
+.pricing_item p sub {}
+.pricing_item ul {}
+.pricing_item ul li {
+    text-align: center;
+    list-style: none;
+    color: #fff;
+    border-bottom: 1px solid #fff;
+    width: 159px;
+    padding-bottom: 10px;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+.pricing_item button {
+    padding: 8px 20px;
+    background: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+    width: 150px;
+    margin: 0 auto;
+    display: block;
+    border: none;
+}
+
+/* Row5 End */
 
